@@ -1,11 +1,9 @@
-import java.util.*;
+
 class factorial
 {
 public static void main(String args[])
 {	
-	System.out.println("Enter a value:");
-	Scanner sc =new Scanner(System.in);
-	int a = sc.nextInt();
+	int a;
 	if (a<0)
 	{
 		System.out.println("Wrong input");
